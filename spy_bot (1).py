@@ -57,7 +57,7 @@ bot = commands.Bot(command_prefix="!", intents=INTENTS, help_command=None)
 
 # Картинка, которая будет прикрепляться к каждому ЛС с ролью/словом.
 # Положи файл с этим именем рядом со скриптом spy_bot.py (или поменяй путь ниже).
-ROLE_IMAGE_PATH = Path(__file__).parent / "spy_image.png"
+ROLE_IMAGE_PATH = Path(__file__).parent / "bot_img.png"
 
 LOCATIONS = {
     "Пляж": ["Спасатель", "Отдыхающий", "Продавец мороженого", "Серфер", "Фотограф"],
